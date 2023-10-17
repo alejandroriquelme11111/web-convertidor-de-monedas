@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>conversor de modeda</title>
+    <!--link css-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="cards">
+        <h1>convertidor de monedas</h1>
+        <hr />
+        <div class="container">
+          <form id="calculadora" class="box">
+            <h2>pesos chilenos</h2>
+            <input type="text" name="valor" />
+
+            <p>moneda a convertir</p>
+            <select name="moneda">
+              <option value="">elige el cambio</option>
+              <option value="uf">uf</option>
+              <option value="ivp">ivp</option>
+              <option value="dolar">dolar</option>
+              <option value="dolar_intercambio">dolar intercambio</option>
+              <option value="euro">euro</option>
+              <option value="ipc">ipc</option>
+              <option value="utm">utm</option>
+              <option value="imacec">imacec</option>
+              <option value="tpm">tpm</option>
+              <option value="libra_cobre">libra de cobre</option>
+              <option value="tasa_desempleo">tasa desempleo</option>
+              <option value="bitcoin">bitcoin</option>
+            </select>
+
+            <button type="submit" class="buscar">buscar</button>
+
+            <div class="cambio">
+              <h3 id="total-valor"></h3>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <div class="graphic">
+      <canvas id="myChart"></canvas>
+    </div>
+    <script src="assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </body>
+</html>

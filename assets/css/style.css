@@ -1,0 +1,47 @@
+body{
+  background-color: rgb(222, 237, 237);
+}
+
+
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  
+  
+}
+
+.cards {
+  border: #ef0909 solid 2px;
+  border-radius: 5px;
+  width: 400px;
+  height: 300px;
+  text-align: center;
+  background-color: antiquewhite;
+  
+ 
+}
+
+input {
+  background-color: aquamarine;
+}
+
+button {
+  background-color: rgb(226, 43, 76);
+  color: aliceblue;
+}
+
+
+select {
+  background-color: blueviolet;
+  color: aliceblue;
+}
+
+canvas {
+  margin-top: 2rem;
+ 
+
+
+ 
+}
+
